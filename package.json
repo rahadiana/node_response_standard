@@ -1,0 +1,26 @@
+{
+  "name": "@rahadiana/node_response_standard",
+  "version": "0.0.1",
+  "description": "response standard json format",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test true",
+    "true": "node test/test true",
+    "false": "node test/test false",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahadiana/node_response_standard.git"
+  },
+  "keywords": [
+    "json",
+    "response-standard"
+  ],
+  "author": "rahadiana.nugraha@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahadiana/node_response_standard/issues"
+  },
+  "homepage": "https://github.com/rahadiana/node_response_standard#readme"
+}
