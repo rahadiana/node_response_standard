@@ -1,4 +1,4 @@
-const { ResponseHandler } = require('../')
+const { ResponseHandler ,RawResponseHandler } = require('../')
 
 const input = process.argv.slice(2)[0]
 
@@ -60,4 +60,9 @@ const data = {
 
 const response = ResponseHandler(input == "true" ? 200 : 400 , data,"this message")
 
-console.log( response  )
+// console.log( response  )
+
+console.log(
+    RawResponseHandler(input == "true" ? 200 : 400 , data,"this message")
+
+)
