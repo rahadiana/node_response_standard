@@ -1,6 +1,6 @@
 {
   "name": "@rahadiana/node_response_standard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "response standard json format",
   "main": "index.js",
   "scripts": {
